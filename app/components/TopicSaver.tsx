@@ -60,11 +60,11 @@ export default function TopicSaver({ slug }: { slug: string }) {
   return (
     <button
       onClick={handleSave}
-      className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-        saved
-          ? "bg-blue-600 hover:bg-red-600 text-white"
-          : "bg-gray-800 hover:bg-blue-600 text-gray-300 hover:text-white"
-      }`}
+      className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors shrink-0 ${
+  saved
+    ? "bg-blue-600 hover:bg-red-600 text-white"
+    : "bg-gray-100 dark:bg-gray-800 hover:bg-blue-600 text-gray-600 dark:text-gray-300 hover:text-white"
+}`}
     >
       {saved ? "✓ Sauvegardé" : "+ Sauvegarder"}
     </button>

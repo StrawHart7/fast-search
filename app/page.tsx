@@ -6,10 +6,10 @@ export default function HomePage() {
     <main className="max-w-5xl mx-auto px-4 sm:px-6 py-10">
       <div className="flex items-end justify-between mb-8">
         <div>
-          <p className="text-xs text-blue-400 font-medium uppercase tracking-widest mb-1">
+          <p className="text-xs text-blue-600 dark:text-blue-400 font-medium uppercase tracking-widest mb-1">
             Dashboard
           </p>
-          <h1 className="text-2xl sm:text-3xl font-bold text-white">
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">
             Tes sujets
           </h1>
         </div>
